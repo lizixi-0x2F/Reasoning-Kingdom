@@ -19,7 +19,8 @@
 建议具备基础的线性代数、概率论和编程知识。
 
 ## 在线阅读
-https://lizixi-0x2F.github.io/reasoning-kingdom
+
+https://datawhalechina.github.io/reasoning-kingdom
 
 ## 导读
 
@@ -29,31 +30,31 @@ https://lizixi-0x2F.github.io/reasoning-kingdom
 >
 > 让我们进入推理王国。
 
-本书的叙事围绕四个原创研究工作展开（QMCB/OpenXOR、永霖公式、ADS、Collins优化器），它们不是对前人成果的总结，而是笔者为理解推理本质而进行的探索性建构。[→ 阅读完整导读](https://lizixi-0x2F.github.io/reasoning-kingdom/preface)
+本书的叙事围绕四个原创研究工作展开（QMCB/OpenXOR、永霖公式、ADS、Collins优化器），它们不是对前人成果的总结，而是笔者为理解推理本质而进行的探索性建构。[→ 阅读完整导读](https://datawhalechina.github.io/reasoning-kingdom/preface)
 
 ## 目录
 
-|  章节名   | 简介 | 状态 |
-|  ----  | ---- | ---- |
-| [导读](https://lizixi-0x2F.github.io/reasoning-kingdom/preface) | 这不是一本教你使用AI的书，而是追问推理本质的思想实验 | ✅ |
-| 第1章：对抗熵增——推理作为存活策略 | 从热力学第二定律出发，理解推理为何是对抗混沌的必要手段 | ✅ |
-| 第2章：符号的黎明——因果的第一次建模 | 符号主义AI的起源与If-Then规则的力量与局限 | ✅ |
-| 第3章：从符号到向量——表示空间的第一次解放 | Word2Vec与表示学习，推理从规则走向几何 | ✅ |
-| 第4章：流形假设——高维数据的隐秩序 | 高维数据并非随机分布，它们挤在低维流形上 | ✅ |
-| 第5章：拟合的陷阱——统计相关性不是推理 | 过拟合、泛化与"见过百万只猫"的模型懂猫吗 | ✅ |
-| 第6章：因果的边界——观测数据永远不够 | 休谟问题、因果推断与相关性的本质局限 | ✅ |
-| 第7章：复杂度的真相：不是快慢，是结构 | P vs NP，计算复杂度揭示的宇宙不对称性 | ✅ |
-| 第8章：启发式的契约：接受"差不多对"需要多少勇气 | A*算法、启发函数与近似推理的哲学 | ✅ |
-| 第9章：Transformer：动态拓扑的注意力革命 | Self-Attention机制如何重构了推理的基础设施 | ✅ |
-| 第10章：搜索的艺术：在推理空间中巡航 | MCTS、树搜索与在不确定性中做决策 | ✅ |
-| 第11章：效能化推理：算法的经济学 | 推理的计算代价，以及如何让推理更高效 | ✅ |
-| 第12章：隐式推理：神经网络的内部独白 | 模型在输出第一个token之前，究竟做了什么 | ✅ |
-| 第13章：推理的边界——以及我们为什么必须接受它 | 图灵测试、不可判定性与智能的终极边界 | ✅ |
+| 章节 | 简介 | 状态 |
+| :---- | :---- | :----: |
+| [导读](https://datawhalechina.github.io/reasoning-kingdom/preface) | 这不是一本教你使用AI的书，而是追问推理本质的思想实验 | ✅ |
+| [第1章：对抗熵增——推理作为存活策略](https://datawhalechina.github.io/reasoning-kingdom/ch1) | 从热力学第二定律出发，理解推理为何是对抗混沌的必要手段 | ✅ |
+| [第2章：符号的黎明——因果的第一次建模](https://datawhalechina.github.io/reasoning-kingdom/ch2) | 符号主义AI的起源与If-Then规则的力量与局限 | ✅ |
+| [第3章：从符号到向量——表示空间的第一次解放](https://datawhalechina.github.io/reasoning-kingdom/ch3) | Word2Vec与表示学习，推理从规则走向几何 | ✅ |
+| [第4章：流形假设——高维数据的隐秩序](https://datawhalechina.github.io/reasoning-kingdom/ch4) | 高维数据并非随机分布，它们挤在低维流形上 | ✅ |
+| [第5章：拟合的陷阱——统计相关性不是推理](https://datawhalechina.github.io/reasoning-kingdom/ch5) | 过拟合、泛化与"见过百万只猫"的模型懂猫吗 | ✅ |
+| [第6章：因果的边界——观测数据永远不够](https://datawhalechina.github.io/reasoning-kingdom/ch6) | 休谟问题、因果推断与相关性的本质局限 | ✅ |
+| [第7章：复杂度的真相：不是快慢，是结构](https://datawhalechina.github.io/reasoning-kingdom/ch7) | P vs NP，计算复杂度揭示的宇宙不对称性 | ✅ |
+| [第8章：启发式的契约：接受"差不多对"需要多少勇气](https://datawhalechina.github.io/reasoning-kingdom/ch8) | A*算法、启发函数与近似推理的哲学 | ✅ |
+| [第9章：Transformer：动态拓扑的注意力革命](https://datawhalechina.github.io/reasoning-kingdom/ch9) | Self-Attention机制如何重构了推理的基础设施 | ✅ |
+| [第10章：搜索的艺术：在推理空间中巡航](https://datawhalechina.github.io/reasoning-kingdom/ch10) | MCTS、树搜索与在不确定性中做决策 | ✅ |
+| [第11章：效能化推理：算法的经济学](https://datawhalechina.github.io/reasoning-kingdom/ch11) | 推理的计算代价，以及如何让推理更高效 | ✅ |
+| [第12章：隐式推理：神经网络的内部独白](https://datawhalechina.github.io/reasoning-kingdom/ch12) | 模型在输出第一个token之前，究竟做了什么 | ✅ |
+| [第13章：推理的边界——以及我们为什么必须接受它](https://datawhalechina.github.io/reasoning-kingdom/ch13) | 图灵测试、不可判定性与智能的终极边界 | ✅ |
 
 ## 贡献者名单
 
 | 姓名 | 职责 | 简介 |
-| :----| :---- | :---- |
+| :---- | :---- | :---- |
 | 李籽溪（兔狲） | 项目负责人 | 在思想实验室里追问推理本质的研究者 |
 
 ## 参与贡献
