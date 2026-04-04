@@ -61,15 +61,15 @@ https://datawhalechina.github.io/reasoning-kingdom
 
 | 章节 | 简介 | 状态 |
 | :---- | :---- | :----: |
-| [第14章：形式系统——推理的语法](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter14/) | 命题、推断规则、公理、证明；句法与语义的根本分离 | ✅ |
+| [第14章：形式系统——给推理一个地基](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter14/) | 命题、推断规则、公理、证明；句法与语义的根本分离 | ✅ |
 | [第15章：一致性与完备性——形式系统的两堵墙](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter15/) | 哥德尔两个不完备定理：真与可证永远不会完全重合 | ✅ |
-| [第16章：线性逻辑与资源——每个假设只能用一次](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter16/) | 去掉收缩规则，推理变成资源管理 | 🔨 |
-| [第17章：概率作为逻辑的扩张——真值从 {0,1} 到 [0,1]](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter17/) | Cox公理：理性信念的唯一相容表示就是概率论 | 🔨 |
-| [第18章：因果结构的形式化——三层阶梯与 do-calculus](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter18/) | Pearl因果阶梯的形式化：观测、干预、反事实 | 🔨 |
-| [第19章：复杂度作为推理的几何——问题的内在结构](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter19/) | 推导树深度=时间复杂度；停机问题与哥德尔重新相遇 | 🔨 |
-| [第20章：启发式的形式合同——"差不多对"的精确定义](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter20/) | 可采纳性、一致性、PAC学习：近似推理的数学保证 | 🔨 |
-| [第21章：学习作为逆推断——泛化是压缩的另一种说法](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter21/) | Kolmogorov复杂度、MDL原理：泛化=压缩 | 🔨 |
-| [第22章：自指与涌现——当推理系统推理关于自身](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter22/) | Curry-Howard对应、不动点定理、Transformer的形式猜想 | 🔨 |
+| [第16章：线性逻辑与资源——每个假设只能用一次](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter16/) | 去掉收缩规则，推理变成资源管理 | ✅ |
+| [第17章：概率作为逻辑的扩张——真值从 {0,1} 到 [0,1]](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter17/) | Cox公理：理性信念的唯一相容表示就是概率论 | ✅ |
+| [第18章：因果结构的形式化——三层阶梯与 do-calculus](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter18/) | Pearl因果阶梯的形式化：观测、干预、反事实 | ✅ |
+| [第19章：复杂度作为推理的几何——为什么有些推理根本不能被加速](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter19/) | 推导树深度=时间复杂度；停机问题与哥德尔重新相遇 | ✅ |
+| [第20章：启发式的形式合同——"差不多对"的精确数学定义](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter20/) | 可采纳性、一致性、PAC学习：近似推理的数学保证 | ✅ |
+| [第21章：学习作为逆推断——泛化是压缩的另一种说法](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter21/) | Kolmogorov复杂度、MDL原理：泛化=压缩 | ✅ |
+| [第22章：自指与涌现——当推理系统开始推理关于自身](https://datawhalechina.github.io/reasoning-kingdom/volume2/chapter22/) | Curry-Howard对应、不动点定理、Transformer的形式猜想 | ✅ |
 
 ## 贡献者名单
 

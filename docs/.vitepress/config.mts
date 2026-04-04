@@ -67,15 +67,15 @@ export default defineConfig({
         {
           text: '下卷：推理的形式演绎',
           items: [
-            { text: '第14章：形式系统——推理的语法', link: '/volume2/chapter14/' },
+            { text: '第14章：形式系统——给推理一个地基', link: '/volume2/chapter14/' },
             { text: '第15章：一致性与完备性——形式系统的两堵墙', link: '/volume2/chapter15/' },
             { text: '第16章：线性逻辑与资源——每个假设只能用一次', link: '/volume2/chapter16/' },
             { text: '第17章：概率作为逻辑的扩张——真值从 {0,1} 到 [0,1]', link: '/volume2/chapter17/' },
             { text: '第18章：因果结构的形式化——三层阶梯与 do-calculus', link: '/volume2/chapter18/' },
-            { text: '第19章：复杂度作为推理的几何——问题的内在结构', link: '/volume2/chapter19/' },
-            { text: '第20章：启发式的形式合同——"差不多对"的精确定义', link: '/volume2/chapter20/' },
+            { text: '第19章：复杂度作为推理的几何——为什么有些推理根本不能被加速', link: '/volume2/chapter19/' },
+            { text: '第20章：启发式的形式合同——"差不多对"的精确数学定义', link: '/volume2/chapter20/' },
             { text: '第21章：学习作为逆推断——泛化是压缩的另一种说法', link: '/volume2/chapter21/' },
-            { text: '第22章：自指与涌现——当推理系统推理关于自身', link: '/volume2/chapter22/' },
+            { text: '第22章：自指与涌现——当推理系统开始推理关于自身', link: '/volume2/chapter22/' },
           ]
         }
       ],
