@@ -267,7 +267,7 @@ $$
 
 Tishby 的主张是：训练过程在两个阶段发生——先是”拟合”阶段，互信息 $I(Z; Y)$ 快速增加，网络在学习捕获与标签相关的信息；然后是”压缩”阶段，$I(X; Z)$ 开始下降，网络开始丢弃与标签无关的信息。
 
-这个理论很漂亮。但它也是争议性的——后续研究（Saxe et al., 2018）发现，压缩阶段在很多情况下并不出现，取决于激活函数的选择。信息瓶颈是一个有价值的分析框架，但不是一个完整的理论 `→ ``[``Tishby & Schwartz-Ziv, 2017, arXiv:1703.00810``]` `→ ``[``Saxe et al., 2018, arXiv:1812.09881``]`。
+这个理论很漂亮。但它也是争议性的——后续研究（Saxe et al., 2018）发现，压缩阶段在很多情况下并不出现，取决于激活函数的选择。信息瓶颈是一个有价值的分析框架，但不是一个完整的理论 `→ [Tishby & Schwartz-Ziv, 2017, arXiv:1703.00810]` `→ [Saxe et al., 2018, arXiv:1812.09881]`。
 
 **最终的账**
 
@@ -801,14 +801,14 @@ print("（MSE 突然大幅上升的拐点对应自动编码器估计的内在维
 
 ## 延伸阅读
 
-- Tishby, N. & Schwartz-Ziv, M. (2017). *Opening the Black Box of Deep Neural Networks via Information* — 信息瓶颈理论的深度学习版本，提出训练的两阶段假说 `→ ``[``arXiv:1703.00810``]`
+- Tishby, N. & Schwartz-Ziv, M. (2017). *Opening the Black Box of Deep Neural Networks via Information* — 信息瓶颈理论的深度学习版本，提出训练的两阶段假说 `→ [arXiv:1703.00810]`
 
-- Saxe, A. et al. (2018). *On the Information Bottleneck Theory of Deep Learning* — 对 Tishby 信息瓶颈理论的批评与修正，表明压缩阶段依赖激活函数选择 `→ ``[``arXiv:1812.09881``]`
+- Saxe, A. et al. (2018). *On the Information Bottleneck Theory of Deep Learning* — 对 Tishby 信息瓶颈理论的批评与修正，表明压缩阶段依赖激活函数选择 `→ [arXiv:1812.09881]`
 
-- Fefferman, C., Mitter, S. & Narayanan, H. (2016). *Testing the Manifold Hypothesis* — 流形假设的数学检验，何时流形假设成立、何时不成立 `→ ``[``arXiv:1204.1423``]`
+- Fefferman, C., Mitter, S. & Narayanan, H. (2016). *Testing the Manifold Hypothesis* — 流形假设的数学检验，何时流形假设成立、何时不成立 `→ [arXiv:1204.1423]`
 
-- Bengio, Y., Courville, A. & Vincent, P. (2013). *Representation Learning: A Review and New Perspectives* — 表示学习综述，包含流形学习与深度表示的关系 `→ ``[``arXiv:1206.5538``]`
+- Bengio, Y., Courville, A. & Vincent, P. (2013). *Representation Learning: A Review and New Perspectives* — 表示学习综述，包含流形学习与深度表示的关系 `→ [arXiv:1206.5538]`
 
 - Bellman, R. (1957). *Dynamic Programming* — 维度诅咒的原始来源，Bellman 在优化背景下命名了这个现象
 
-- `[``Zixi Li, 2026b``]` Collins — 随机化优化器，$O(1)$ 状态压缩，安全压缩比 $c_{\text{opt}} \approx 34$ 的信息论证明
+- [Zixi Li, 2026b] Collins — 随机化优化器，$O(1)$ 状态压缩，安全压缩比 $c_{\text{opt}} \approx 34$ 的信息论证明

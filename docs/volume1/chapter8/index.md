@@ -820,9 +820,9 @@ Landauer原理给出了理论下界:擦除1比特信息至少需要$k_B T \ln 2$
 
 - \[Zixi Li, 2026b\] — Collins随机化优化器,确定性下界与Chernoff上界,c_opt ≈ 34的相变
 
-- \[Li & Jin, 2015\] — 加权单位圆盘覆盖的PTAS,近似算法的黄金标准 `→ ``[``arXiv:1502.04918``]`
+- \[Li & Jin, 2015\] — 加权单位圆盘覆盖的PTAS,近似算法的黄金标准 `→ [arXiv:1502.04918]`
 
-- \[Esmer et al., 2022\] — 近似单调局部搜索的指数时间近似算法 `→ ``[``arXiv:2206.13481``]`
+- \[Esmer et al., 2022\] — 近似单调局部搜索的指数时间近似算法 `→ [arXiv:2206.13481]`
 
 - Pearl, J. (1984). *Heuristics: Intelligent Search Strategies for Computer Problem Solving* — 启发式搜索的经典教材
 

@@ -466,7 +466,7 @@ print("      这不是算法不够聪明，而是逻辑的必然。")
 
 - Penrose, R. (1989). *The Emperor’s New Mind* — 哥德尔定理与人工智能的哲学讨论
 
-- \[Hamkins & Nenu, 2024\] — 停机问题的历史澄清 `→ ``[``arXiv:2310.07927``]`
+- \[Hamkins & Nenu, 2024\] — 停机问题的历史澄清 `→ [arXiv:2310.07927]`
 
 - Hofstadter, D. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid* — 自指、递归与意识的经典著作
 

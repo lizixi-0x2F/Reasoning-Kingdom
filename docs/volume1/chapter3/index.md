@@ -214,7 +214,7 @@ $$
 
 更重要的是，这个等式在很多情况下**不成立**。
 
-Fournier et al.（2020）系统性地分析了类比测试的局限性，发现：所谓的”类比等式”大量依赖于一个取巧的评估方式——在答案中排除了输入词本身，而最近邻往往就是输入词之一。改变评估方式之后，大量”类比能力”的统计结果显著下降 `→ ``[``Fournier et al., 2020, arXiv:2010.03446``]`。
+Fournier et al.（2020）系统性地分析了类比测试的局限性，发现：所谓的”类比等式”大量依赖于一个取巧的评估方式——在答案中排除了输入词本身，而最近邻往往就是输入词之一。改变评估方式之后，大量”类比能力”的统计结果显著下降 `→ [Fournier et al., 2020, arXiv:2010.03446]`。
 
 还有一个更直接的例子。你试试这个类比：
 
@@ -617,11 +617,11 @@ find_counterintuitive_similarities(model, word="physics", topn=20, low_threshold
 
 ## 延伸阅读
 
-- Mikolov et al. (2013). *Efficient Estimation of Word Representations in Vector Space* — word2vec 原始论文，CBOW 与 Skip-gram 架构，`→ ``[``arXiv:1301.3781``]`
+- Mikolov et al. (2013). *Efficient Estimation of Word Representations in Vector Space* — word2vec 原始论文，CBOW 与 Skip-gram 架构，`→ [arXiv:1301.3781]`
 
-- Mikolov et al. (2013). *Distributed Representations of Words and Phrases and their Compositionality* — 负采样、短语向量与组合性，`→ ``[``arXiv:1310.4546``]`
+- Mikolov et al. (2013). *Distributed Representations of Words and Phrases and their Compositionality* — 负采样、短语向量与组合性，`→ [arXiv:1310.4546]`
 
-- Fournier, Dupoux & Dunbar (2020). *Analogies minus analogy test* — 对类比测试的批判性分析，表明标准评估有缺陷，`→ ``[``arXiv:2010.03446``]`
+- Fournier, Dupoux & Dunbar (2020). *Analogies minus analogy test* — 对类比测试的批判性分析，表明标准评估有缺陷，`→ [arXiv:2010.03446]`
 
 - Firth, J.R. (1957). *A synopsis of linguistic theory 1930-55* — 分布假设的哲学起点，“你可以通过交往的朋友来认识一个词”
 

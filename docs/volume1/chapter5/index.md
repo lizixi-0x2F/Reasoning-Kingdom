@@ -875,19 +875,19 @@ else:
 
 - Bender, E. M., et al. (2021). *On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?* — “随机鹦鹉”假说的原始论文,引发了关于大型语言模型本质的广泛讨论
 
-- Hodel, D. & West, J. (2023). *Response: Emergent analogical reasoning in large language models* — 对GPT-3”涌现推理能力”的批判性反驳,展示了分布偏移下的脆弱性 `→ ``[``arXiv:2308.16118``]`
+- Hodel, D. & West, J. (2023). *Response: Emergent analogical reasoning in large language models* — 对GPT-3”涌现推理能力”的批判性反驳,展示了分布偏移下的脆弱性 `→ [arXiv:2308.16118]`
 
 - Geirhos, R., et al. (2020). *Shortcut Learning in Deep Neural Networks* — 捷径学习的系统性综述,涵盖视觉、语言、语音等多个领域
 
-- Puli, A., et al. (2023). *Don’t blame Dataset Shift! Shortcut Learning due to Gradients and Cross Entropy* — 揭示梯度下降+交叉熵的归纳偏置如何导致捷径学习 `→ ``[``arXiv:2308.12553``]`
+- Puli, A., et al. (2023). *Don’t blame Dataset Shift! Shortcut Learning due to Gradients and Cross Entropy* — 揭示梯度下降+交叉熵的归纳偏置如何导致捷径学习 `→ [arXiv:2308.12553]`
 
-- Zhao, C., et al. (2025). *Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens* — DataAlchemy实验,证明CoT推理是训练分布的脆弱镜像 `→ ``[``arXiv:2508.01191``]`
+- Zhao, C., et al. (2025). *Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens* — DataAlchemy实验,证明CoT推理是训练分布的脆弱镜像 `→ [arXiv:2508.01191]`
 
-- Li, T., et al. (2020). *Tilted Empirical Risk Minimization* — 通过调整样本权重来平衡鲁棒性和公平性 `→ ``[``arXiv:2007.01162``]`
+- Li, T., et al. (2020). *Tilted Empirical Risk Minimization* — 通过调整样本权重来平衡鲁棒性和公平性 `→ [arXiv:2007.01162]`
 
-- Sricharan, K. & Srivastava, A. (2018). *Building robust classifiers through generation of confident out of distribution examples* — 用GAN生成OOD样本进行对抗训练 `→ ``[``arXiv:1812.00239``]`
+- Sricharan, K. & Srivastava, A. (2018). *Building robust classifiers through generation of confident out of distribution examples* — 用GAN生成OOD样本进行对抗训练 `→ [arXiv:1812.00239]`
 
-- Woodland, M., et al. (2024). *Dimensionality Reduction and Nearest Neighbors for Improving Out-of-Distribution Detection in Medical Image Segmentation* — 医学图像中的OOD检测与捷径学习 `→ ``[``arXiv:2408.02761``]`
+- Woodland, M., et al. (2024). *Dimensionality Reduction and Nearest Neighbors for Improving Out-of-Distribution Detection in Medical Image Segmentation* — 医学图像中的OOD检测与捷径学习 `→ [arXiv:2408.02761]`
 
 - Vapnik, V. & Chervonenkis, A. (1971). *On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities* — 统计学习理论的奠基性工作,ERM的理论基础
 
