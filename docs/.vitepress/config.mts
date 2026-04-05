@@ -67,6 +67,7 @@ export default defineConfig({
         {
           text: '下卷：推理的形式演绎',
           items: [
+            { text: '下卷导读：在地基上建造之前', link: '/volume2/preface/' },
             { text: '第14章：形式系统——给推理一个地基', link: '/volume2/chapter14/' },
             { text: '第15章：一致性与完备性——形式系统的两堵墙', link: '/volume2/chapter15/' },
             { text: '第16章：线性逻辑与资源——每个假设只能用一次', link: '/volume2/chapter16/' },
