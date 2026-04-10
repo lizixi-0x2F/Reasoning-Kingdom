@@ -78,6 +78,7 @@ export default defineConfig({
             { text: '第20章：启发式的形式合同——"差不多对"的精确数学定义', link: '/volume2/chapter20/' },
             { text: '第21章：学习作为逆推断——泛化是压缩的另一种说法', link: '/volume2/chapter21/' },
             { text: '第22章：自指与涌现——当推理系统开始推理关于自身', link: '/volume2/chapter22/' },
+            { text: '附录：下卷思考题参考提示', link: '/appendix-thinking-questions' },
           ]
         }
       ],
