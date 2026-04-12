@@ -45,7 +45,7 @@ export default defineConfig({
     nav: [
       { text: '推理地图', link: '/map' },
       { text: '前传：推理科学入门', link: '/dear-reasoner/' },
-      { text: '上卷：科普叙事', link: '/preface' },
+      { text: '上卷：科普叙事', link: '/volume1/preface/' },
       { text: '下卷：形式演绎', link: '/volume2/preface/' },
       { text: '兔狲学院', link: '/dear-reasoner/academy/' },
       { text: '兔狲教授小词典', link: '/dictionary' },
@@ -128,8 +128,8 @@ export default defineConfig({
        '/volume1/': [
         {
           text: '上卷：推理的历史叙事',
-          items: [
-            { text: '导读', link: '/preface' },
+           items: [
+            { text: '导读', link: '/volume1/preface/' },
             { text: '第1章：对抗熵增——推理作为存活策略', link: '/volume1/chapter1/' },
             { text: '第2章：符号的黎明——因果的第一次建模', link: '/volume1/chapter2/' },
             { text: '第3章：从符号到向量——表示空间的第一次解放', link: '/volume1/chapter3/' },
@@ -172,9 +172,9 @@ export default defineConfig({
       ],
         '/': [
         {
-          items: [
+           items: [
             { text: '推理王国地图', link: '/map' },
-            { text: '导读', link: '/preface' },
+            { text: '导读', link: '/volume1/preface/' },
             { text: '前传：推理科学入门 →', link: '/dear-reasoner/' },
             { text: '兔狲教授小词典', link: '/dictionary' },
             { text: '上卷：推理的历史叙事 →', link: '/volume1/chapter1/' },

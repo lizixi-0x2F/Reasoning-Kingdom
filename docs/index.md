@@ -18,7 +18,7 @@ hero:
       link: /dear-reasoner/
     - theme: alt
       text: 上卷：推理的历史演变
-      link: /preface
+      link: /volume1/preface/
     - theme: alt
       text: 下卷：推理的形式演绎
       link: /volume2/preface/
