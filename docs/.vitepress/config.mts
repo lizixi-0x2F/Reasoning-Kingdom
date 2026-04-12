@@ -44,7 +44,7 @@ export default defineConfig({
     logo: '/datawhale-logo.png',
     nav: [
       { text: '推理地图', link: '/map' },
-      { text: '前传：推理科学入门', link: '/dear-reasoner/' },
+      { text: '前传：推理科学入门', link: '/dear-reasoner/preface' },
       { text: '上卷：科普叙事', link: '/volume1/preface/' },
       { text: '下卷：形式演绎', link: '/volume2/preface/' },
       { text: '兔狲学院', link: '/dear-reasoner/academy/' },
@@ -172,11 +172,11 @@ export default defineConfig({
       ],
         '/': [
         {
-           items: [
-            { text: '推理王国地图', link: '/map' },
-            { text: '导读', link: '/volume1/preface/' },
-            { text: '前传：推理科学入门 →', link: '/dear-reasoner/' },
-            { text: '兔狲教授小词典', link: '/dictionary' },
+            items: [
+             { text: '推理王国地图', link: '/map' },
+             { text: '导读', link: '/volume1/preface/' },
+             { text: '前传：推理科学入门 →', link: '/dear-reasoner/preface' },
+             { text: '兔狲教授小词典', link: '/dictionary' },
             { text: '上卷：推理的历史叙事 →', link: '/volume1/chapter1/' },
             { text: '下卷：推理的形式演绎 →', link: '/volume2/chapter14/' },
           ]

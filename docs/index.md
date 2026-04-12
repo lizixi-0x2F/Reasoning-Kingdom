@@ -15,7 +15,7 @@ hero:
       link: /map
     - theme: alt
       text: 前传：推理科学入门
-      link: /dear-reasoner/
+      link: /dear-reasoner/preface
     - theme: alt
       text: 上卷：推理的历史演变
       link: /volume1/preface/
