@@ -15,8 +15,9 @@ export default defineConfig({
   themeConfig: {
     logo: '/datawhale-logo.png',
     nav: [
-      { text: '上卷：科普叙事', link: '/volume1/chapter1/' },
-      { text: '下卷：形式演绎', link: '/volume2/chapter14/' },
+      { text: '推理地图', link: '/map' },
+      { text: '上卷：科普叙事', link: '/preface' },
+      { text: '下卷：形式演绎', link: '/volume2/preface/' },
     ],
     search: {
       provider: 'local',
@@ -83,9 +84,10 @@ export default defineConfig({
           ]
         }
       ],
-      '/': [
+       '/': [
         {
           items: [
+            { text: '推理王国地图', link: '/map' },
             { text: '导读', link: '/preface' },
             { text: '上卷：推理的历史叙事 →', link: '/volume1/chapter1/' },
             { text: '下卷：推理的形式演绎 →', link: '/volume2/chapter14/' },

@@ -11,14 +11,14 @@ hero:
     alt: 推理王国
   actions:
     - theme: brand
-      text: 导读
-      link: /preface
-    - theme: brand
+      text: 推理王国地图
+      link: /map
+    - theme: alt
       text: 上卷：推理的历史演变
-      link: /volume1/chapter1/
+      link: /preface
     - theme: alt
       text: 下卷：推理的形式演绎
-      link: /volume2/chapter14/
+      link: /volume2/preface/
 
 features:
   - title: 上卷（第1–13章）
