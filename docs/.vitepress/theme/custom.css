@@ -457,6 +457,39 @@ td {
   border: 1px solid rgba(59, 130, 246, 0.2);
 }
 
+.custom-block.details {
+  padding: 16px 20px;
+  border-left: 4px solid var(--notion-warning, #e7a13b);
+  background-color: rgba(231, 161, 59, 0.08);
+  border-radius: 8px;
+  margin: 20px 0;
+  border: 1px solid rgba(231, 161, 59, 0.25);
+}
+
+.details-summary {
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: var(--vp-c-text-1);
+}
+
+.custom-block.details p,
+.custom-block.detail p {
+  margin: 12px 0;
+  line-height: 1.6;
+}
+
+.custom-block.details :first-child,
+.custom-block.detail :first-child,
+.custom-block.info :first-child {
+  margin-top: 0;
+}
+
+.custom-block.details :last-child,
+.custom-block.detail :last-child,
+.custom-block.info :last-child {
+  margin-bottom: 0;
+}
+
 
 
 .custom-block.info p,
@@ -596,14 +629,7 @@ td {
     break-after: avoid;
   }
 
-  /* --- 代码块、引用、表格内避免分页 --- */
-  pre,
-  blockquote,
-  table {
-    break-inside: avoid;
-  }
-
-  /* --- 图片不跨页 --- */
+  /* --- 仅图片不跨页，其余元素自由断开 --- */
   img {
     break-inside: avoid;
     max-width: 100% !important;
@@ -614,13 +640,27 @@ td {
     overflow-x: visible !important;
   }
 
-  /* --- detail/info 自定义块强制展开，不断开 --- */
-  .custom-block,
-  .custom-block.detail,
-  .custom-block.info {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    break-inside: avoid;
-  }
+	  /* --- 禁用所有动画与过渡 + 强制完全可见 --- */
+	  /* 动画/过渡会干扰透明度：禁掉动画后元素可能卡在 opacity:0 的起始帧 */
+	  *,
+	  *::before,
+	  *::after {
+	    animation: none !important;
+	    transition: none !important;
+	    opacity: 1 !important;
+	  }
+
+	  /* --- 自定义块：不断开 + 内容确保可见 --- */
+	  .custom-block,
+	  .custom-block.detail,
+	  .custom-block.details,
+	  .custom-block.info {
+	  }
+
+	  /* details-summary 保持视觉层级 */
+	  .details-summary {
+	    font-weight: 700;
+	    margin-bottom: 8px;
+	  }
+
 }

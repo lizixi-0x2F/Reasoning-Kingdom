@@ -63,6 +63,27 @@ export default defineConfig({
           }
         }
       })
+
+      /* 覆盖 VitePress 内置的 details 容器：渲染为普通 div，不再使用原生 <details> 元素。
+         原生 <details> 元素在打印/PDF 导出时会折叠隐藏内容，CSS 无法完全覆盖 Chromium 的内部隐藏机制。
+         改为 div 后，折叠/展开的交互效果丢失，但内容始终可见——这对本书更重要。 */
+      md.use(container, 'details', {
+        validate: function(params) {
+          return !!params.trim().match(/^details(::|\s|$)/)
+        },
+        render: function (tokens, idx) {
+          if (tokens[idx].nesting === 1) {
+            const info = tokens[idx].info.trim()
+            const title = info.replace(/^details\s*:?\s*/, '')
+            if (title) {
+              return `<div class="details custom-block"><p class="details-summary">${title}</p>\n`
+            }
+            return '<div class="details custom-block">\n'
+          } else {
+            return '</div>\n'
+          }
+        }
+      })
     }
   },
   themeConfig: {

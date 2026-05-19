@@ -26,7 +26,7 @@ function sortKey(path: string): [number, number, number, number] {
 
 export default defineUserConfig({
   routePatterns: [
-    "!/map.md",
+    "!/reasoning-kingdom/map.html",
     '!/index.html',                      // 排除首页封面（base=/时）
     '!/reasoning-kingdom/index.html',    // 排除首页封面（base=/reasoning-kingdom/时）
     '!/dear-reasoner/academy/**',        // 排除兔狲学院所有页面
