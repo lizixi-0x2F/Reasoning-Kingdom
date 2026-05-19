@@ -211,9 +211,3 @@
 **记住**：困惑是正常的。如果读完一章后你感到更困惑了，说明你读对了。推理王国的探险，从承认自己的无知开始。
 
 ---
-
-<div align="center">
-  <a href="/reasoning-kingdom/dear-reasoner/preface" style="margin-right: 20px;">▶ 从前传开始</a>
-  <a href="/reasoning-kingdom/volume1/preface/" style="margin-right: 20px;">▶ 开始上卷探险</a>
-  <a href="/reasoning-kingdom/volume2/preface/">▶ 开始下卷重建</a>
-</div>

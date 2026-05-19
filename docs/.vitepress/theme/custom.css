@@ -498,3 +498,129 @@ td {
   content: '详情';
   color: var(--notion-info);
 }
+
+/* ============================================================================
+   打印样式 - PDF导出
+   隐藏所有非文章内容的UI元素：导航、侧边栏、公告栏、页脚等
+   ============================================================================ */
+
+@media print {
+  /* --- 隐藏所有UI元素 --- */
+  .announcement-banner,
+  .VPNav,
+  .VPSidebar,
+  .VPSidebarItem,
+  .VPDocAside,
+  .VPDocAsideOutline,
+  .VPFooter,
+  .VPBackToTop,
+  .VPLocalNav,
+  .VPDocFooter,
+  .edit-info,
+  .edit-link,
+  .VPSocialLinks,
+  .VPNavBar,
+  .VPNavBarTitle,
+  .VPNavBarMenu,
+  .VPNavBarSearch,
+  .VPNavBarAppearance,
+  .VPNavBarSocialLinks,
+  .VPContentDocFooter,
+  .prev-next,
+  .pager,
+  .DocSearch,
+  .DocSearch-Button,
+  .header-anchor,
+  .vp-doc .header-anchor,
+  .copy,
+  .copy-code,
+  .vp-copy-code-button,
+  .lang,
+  button[class*="copy"],
+  .VPNavScreen,
+  .VPLocalNavOutlineDropdown,
+  #VPSidebarNav,
+  .aside,
+  aside,
+  nav,
+  header,
+  footer {
+    display: none !important;
+  }
+
+  /* --- 页面边距：左右留约1英寸（25mm），上下留20mm --- */
+  @page {
+    margin: 20mm 25mm;
+  }
+
+  /* --- 内容区域全宽，但保留内部舒适边距 --- */
+  .VPContent,
+  .VPDoc,
+  .VPDoc .container,
+  .VPDoc .content,
+  .VPDoc .content-container {
+    max-width: none !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* --- 移除内容区域的padding-top（原来是给导航栏留的空间） --- */
+  .VPContent {
+    padding-top: 0 !important;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* --- 链接去掉颜色和下划线 --- */
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  /* --- 代码块换行，避免溢出 --- */
+  pre,
+  code {
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+  }
+
+  /* --- 标题后避免分页 --- */
+  h1,
+  h2,
+  h3,
+  h4 {
+    break-after: avoid;
+  }
+
+  /* --- 代码块、引用、表格内避免分页 --- */
+  pre,
+  blockquote,
+  table {
+    break-inside: avoid;
+  }
+
+  /* --- 图片不跨页 --- */
+  img {
+    break-inside: avoid;
+    max-width: 100% !important;
+  }
+
+  /* --- 移除溢出的右边距 --- */
+  .vp-doc {
+    overflow-x: visible !important;
+  }
+
+  /* --- detail/info 自定义块强制展开，不断开 --- */
+  .custom-block,
+  .custom-block.detail,
+  .custom-block.info {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    break-inside: avoid;
+  }
+}
