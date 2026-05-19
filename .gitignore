@@ -6,4 +6,3 @@ scripts/
 .claude/
 package-lock.json
 backup/
-*.pdf
